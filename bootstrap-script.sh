@@ -47,7 +47,7 @@ sudo echo "
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-" > /etc/apache2/sites-available/auth.conf
+" > /etc/apache2/sites-available/sub1.conf
 
 sudo echo "
 <VirtualHost *:80>
@@ -58,7 +58,7 @@ sudo echo "
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-" > /etc/apache2/sites-available/demo.conf
+" > /etc/apache2/sites-available/sub2.conf
 
 
 # Enable sites
